@@ -1,13 +1,14 @@
 .Banner-content{
     padding-left: 3rem;
-    padding-top: 350px;
+    padding-top: 300px;
     width: 45rem;
 }
 .Banner-content h1{
     font-size: 50px;
-    color: rgb(251, 18, 18);
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 Banner-content h2{
-    font-size: 1rem;
     padding-top: 1rem;
+    color: white;
 }

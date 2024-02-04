@@ -5,8 +5,13 @@
     padding-left: 0.3rem;
     padding-top: 0.6rem;
     z-index: 1;
+    
 }
 .nav-black{
- background-color: black;
- 
+ background-color:white;
+ color: black;
+ font-weight: bolder;
+}
+.nav-black .btn{
+    background-color: black;
 }

@@ -19,8 +19,11 @@ console.log(allMovies);
 },[])
 
   return (
+    <>
+      {/* <h1 style={{ fontSize: '50px', color: 'black', fontWeight: 'bolder' }}>Movies</h1> */}
+      <br /><br /><br />
       <div className='row'> 
-      <h1>{title}</h1>
+      <h1 style={{fontSize:'20px',color:'black',fontWeight:'bold'}} >{title}</h1>
       <div className='movies-row'>
       {
         allMovies?.map(item => (
@@ -28,7 +31,9 @@ console.log(allMovies);
         ))
         }
         </div>
-    </div>
+      </div>
+      </>
+
   )
 }
 
